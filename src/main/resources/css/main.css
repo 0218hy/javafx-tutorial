@@ -45,3 +45,17 @@
     -fx-opacity: 0;
 }
 
+.button {
+    -fx-background-color:springgreen;
+    -fx-font: italic bold 16px "Arial";
+}
+
+.button:hover {
+    -fx-background-color:cyan;
+    -fx-font-size: 18px;
+}
+
+.button:pressed {
+    -fx-background-color:orange;
+    -fx-font-size: 20px;
+}
